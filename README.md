@@ -51,47 +51,48 @@ To get started with the project, follow these steps:
 
 This is the folder structure for the **Enhance_Anti_Money_Laundering** project:
 
-\---Enhance_Anti_Money_Laundering
-    +---.vscode
-    +---catboost_info
-    |   \---learn
-    +---data
-    +---data_processed
-    +---logs
-    +---predictions
-    +---reports
-    +---saved_models
-    +---src
-    +---static
-    |   +---css
-    |   +---fonts
-    |   |   \---Inter
-    |   |       \---static
-    |   +---images
-    |   |   \---logo
-    |   +---js
-    |   \---lib
-    |       +---apexcharts
-    |       +---bootstrap_5
-    |       +---DataTables
-    |       +---fontawesome
-    |       |   +---css
-    |       |   +---js
-    |       |   +---less
-    |       |   +---metadata
-    |       |   +---scss
-    |       |   +---sprites
-    |       |   +---svgs
-    |       |   |   +---brands
-    |       |   |   +---regular
-    |       |   |   \---solid
-    |       |   \---webfonts
-    |       +---fullcalender
-    |       +---jQuery
-    |       +---jvectormap
-    |       \---slick-1.8.1
-    |           \---fonts
-    \---templates
+Enhance_Anti_Money_Laundering
+├── .vscode
+├── catboost_info
+│   └── learn
+├── data
+├── data_processed
+├── logs
+├── predictions
+├── reports
+├── saved_models
+├── src
+├── static
+│   ├── css
+│   ├── fonts
+│   │   └── Inter
+│   │       └── static
+│   ├── images
+│   │   └── logo
+│   ├── js
+│   └── lib
+│       ├── apexcharts
+│       ├── bootstrap_5
+│       ├── DataTables
+│       ├── fontawesome
+│       │   ├── css
+│       │   ├── js
+│       │   ├── less
+│       │   ├── metadata
+│       │   ├── scss
+│       │   ├── sprites
+│       │   ├── svgs
+│       │   │   ├── brands
+│       │   │   ├── regular
+│       │   │   └── solid
+│       │   └── webfonts
+│       ├── fullcalender
+│       ├── jQuery
+│       ├── jvectormap
+│       └── slick-1.8.1
+│           └── fonts
+└── templates
+
 
 ### How to use this structure:
 - **.vscode**: Configuration files for Visual Studio Code.
