@@ -1,29 +1,48 @@
-Enhanced Anti-Money Laundering (AML) System 
-Abstract:
-This project addresses the growing issue of money laundering, which is a global financial 
-threat, with an estimated $1.6 trillion laundered annually. Traditional Anti-Money 
-Laundering (AML) methods often struggle to adapt to modern techniques, highlighting 
-the need for more advanced detection systems. This research presents a comprehensive 
-solution utilizing data mining and machine learning to enhance the efficiency of AML 
-systems.
+# Enhanced Anti-Money Laundering (AML) System
+
+## Abstract
+This project addresses the growing issue of money laundering, which is a global financial threat, with an estimated $1.6 trillion laundered annually. Traditional Anti-Money Laundering (AML) methods often struggle to adapt to modern techniques, highlighting the need for more advanced detection systems. This research presents a comprehensive solution utilizing data mining and machine learning to enhance the efficiency of AML systems.
+
+## System Components
 The proposed system consists of four primary components:
-[1].Data Cleaning: Ensures high-quality financial transaction data by removing 
-inconsistencies and inaccuracies.
-[2].Mined Frequent Rules: Identifies transaction patterns and anomalies through 
-rule-mining techniques such as FP-growth.
-[3].Classifier Construction: Builds machine learning models (e.g., Random Forest 
-and XGBoost) to detect suspicious transactions.
-[4].Reporting: Provides dashboards and analytics tools to generate alerts and ensure 
-compliance with financial regulations.
-The objective of the project was to develop a robust and adaptable system capable of 
-detecting suspicious transactions with improved accuracy, enhancing real-time 
-monitoring capabilities, and facilitating compliance with global financial regulations.
-Through a detailed review of current AML systems and their limitations, the project 
-demonstrates how the integration of data mining techniques, machine learning algorithms, 
-and visualization tools can substantially improve the detection of money laundering
-activities. The system has been tested under realistic conditions and has shown promising 
-results in enhancing detection accuracy, usability, and scalability.
-This project contributes to the growing field of AML research by providing a solution that 
-leverages advanced technologies to address modern challenges in financial crime 
-detection. It is a practical tool that can benefit financial institutions, regulatory bodies, and 
-law enforcement agencies in combating money laundering more effectively
+
+1. **Data Cleaning**: Ensures high-quality financial transaction data by removing inconsistencies and inaccuracies.
+2. **Mined Frequent Rules**: Identifies transaction patterns and anomalies through rule-mining techniques such as FP-growth.
+3. **Classifier Construction**: Builds machine learning models (e.g., Random Forest and XGBoost) to detect suspicious transactions.
+4. **Reporting**: Provides dashboards and analytics tools to generate alerts and ensure compliance with financial regulations.
+
+## Objective
+The objective of this project is to develop a robust and adaptable system capable of:
+- Detecting suspicious transactions with improved accuracy.
+- Enhancing real-time monitoring capabilities.
+- Facilitating compliance with global financial regulations.
+
+## Approach
+Through a detailed review of current AML systems and their limitations, the project demonstrates how the integration of:
+- **Data mining techniques**
+- **Machine learning algorithms**
+- **Visualization tools**
+
+Can substantially improve the detection of money laundering activities. The system has been tested under realistic conditions and has shown promising results in enhancing detection accuracy, usability, and scalability.
+
+## Contributions
+This project contributes to the growing field of AML research by providing a solution that leverages advanced technologies to address modern challenges in financial crime detection. It is a practical tool that can benefit:
+- Financial institutions
+- Regulatory bodies
+- Law enforcement agencies
+
+In combating money laundering more effectively.
+
+## Results
+The system has demonstrated:
+- **Enhanced detection accuracy** for identifying suspicious transactions.
+- **Improved usability** with intuitive dashboards and reporting tools.
+- **Scalability** for handling large volumes of financial transaction data.
+
+## Installation
+To get started with the project, follow these steps:
+
+1. Clone this repository.
+2. Install the required dependencies using the following command:
+   ```bash
+   pip install -r requirements.txt
