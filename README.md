@@ -50,7 +50,7 @@ To get started with the project, follow these steps:
 # Project Folder Structure
 
 This is the folder structure for the **Enhance_Anti_Money_Laundering** project:
-
+```
 Enhance_Anti_Money_Laundering
 ├── .vscode
 ├── catboost_info
@@ -92,7 +92,7 @@ Enhance_Anti_Money_Laundering
 │       └── slick-1.8.1
 │           └── fonts
 └── templates
-
+```
 
 ### How to use this structure:
 - **.vscode**: Configuration files for Visual Studio Code.
